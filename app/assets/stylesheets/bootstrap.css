@@ -325,8 +325,9 @@ a:hover {
 p {
   margin: 0 0 9px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 18px;
+  color:#66cccc; /* add 2012/04/26 */
 }
 p small {
   font-size: 11px;
