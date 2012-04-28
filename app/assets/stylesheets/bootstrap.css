@@ -327,7 +327,8 @@ p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
-  color:#66cccc; /* add 2012/04/26 */
+  /* color:#66cccc; /* add 2012/04/26 */
+  color:#ffffff;
 }
 p small {
   font-size: 11px;

@@ -8,6 +8,7 @@ class RespiraController < ApplicationController
   end
 
   def webapp
+    @respira = Respira
   end
 
   def contact
