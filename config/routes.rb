@@ -1,4 +1,9 @@
 Respira::Application.routes.draw do
+  get "home" => "respira#home"
+  get "about" => "respira#about"
+  get "webapp" => "respira#webapp"
+  get "contact" => "respira#contact"
+
   get "respira/home" => "respira#home"
   get "respira/about" => "respira#about"
   get "respira/webapp" => "respira#webapp"
