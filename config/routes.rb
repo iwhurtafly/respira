@@ -1,13 +1,13 @@
 Respira::Application.routes.draw do
-  get "home" => "respira#home"
-  get "about" => "respira#about"
-  get "webapp" => "respira#webapp"
-  get "contact" => "respira#contact"
+  #get "home" => "respira#home"
+  #get "about" => "respira#about"
+  #get "webapp" => "respira#webapp"
+  #get "contact" => "respira#contact"
 
-  #get "respira/home" => "respira#home"
-  #get "respira/about" => "respira#about"
-  #get "respira/webapp" => "respira#webapp"
-  #get "respira/contact" => "respira#contact"
+  get "respira/home" => "respira#home"
+  get "respira/about" => "respira#about"
+  get "respira/webapp" => "respira#webapp"
+  get "respira/contact" => "respira#contact"
 
   #get "respira.heroku.com/home" => "respira.heroku.com#contact"
   #get "respira.heroku.com/about" => "respira.heroku.com#about"
