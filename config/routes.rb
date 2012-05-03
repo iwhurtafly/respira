@@ -4,10 +4,10 @@ Respira::Application.routes.draw do
   get "respira.heroku.com/webapp" => "respira.heroku.com#webapp"
   get "respira.heroku.com/contact" => "respira.heroku.com#contact"
 
-  #get "respira/home" => "respira#home"
-  #get "respira/about" => "respira#about"
-  #get "respira/webapp" => "respira#webapp"
-  #get "respira/contact" => "respira#contact"
+  get "respira/home" => "respira#home"
+  get "respira/about" => "respira#about"
+  get "respira/webapp" => "respira#webapp"
+  get "respira/contact" => "respira#contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
